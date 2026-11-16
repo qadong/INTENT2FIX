@@ -16,17 +16,6 @@ Intent2Fix grounds C++ issue resolution in both repository semantics and the beh
 
 The portfolio workflow shares an investigation across candidate repairs:
 
-```mermaid
-flowchart LR
-    I[Issue and checkout] --> S[Scout]
-    G[Code-intent index] --> S
-    S --> H[Repair-intent hypotheses]
-    H --> R[Candidate repairs]
-    G --> R
-    R --> C[Selector]
-    C --> O[Selected patch or abstention]
-```
-
 1. **Scout** investigates source, tests, and observable behavior, then records evidence and unresolved questions.
 2. **Hypothesis** constructs distinct repair interpretations with expected behavior, preservation requirements, scope, and discriminating checks. The basic portfolio supports one to three hypotheses; an optional expanded pool can be reduced to the Repair budget.
 3. **Repair** implements candidates in separate runtime contexts. The `unified_four` profile exposes **Bash, Editor, CodeGraph, and Finish** when graph access is enabled; without the graph it exposes Bash, Editor, and Finish. `Finish` ends a repair attempt; candidate validation and selection happen separately.
