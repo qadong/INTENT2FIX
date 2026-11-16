@@ -1,0 +1,1 @@
+from INTENT2FIX.feedback.base import BaseFeedbackGenerator

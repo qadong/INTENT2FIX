@@ -200,7 +200,8 @@ index_results.tar.gz
 /eval_issue_hints/
 /eval_issue_hints_llm/
 /eval_patch_judge/
-/exp_stats/index_storage_per_instance.json
+/exp_stats/*
+!/exp_stats/*.py
 /intent2fix_*.jsonl
 /minisweagent_*.jsonl
 /minisweagent_*.json
@@ -234,9 +235,10 @@ index_results.tar.gz
 /INTENT2FIX/benchmark/*.jsonl
 /INTENT2FIX/benchmark/*.csv
 /INTENT2FIX/memory/memory.json
+/INTENT2FIX/memory/memory_prompt.txt
+/tests/verify/data/
 /OPTIMIZATION_CHANGE_AUDIT.md
-/docs/*
-!/docs/intent_portfolio_pipeline.md
+/docs/
 
 INTENT2FIX/bin/results_ablation_no_intent_deepseek-v3/nlohmann__json-2258/repair_trajectory_nlohmann__json-2258.json
 results_deepseek-v3-0324_cotest/nlohmann__json-3543/repair_trajectory_nlohmann__json-3543.json
