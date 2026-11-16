@@ -1,12 +1,12 @@
-# INTENT2FIX (ISSTA ’26)
+# Intent2Fix
 
-[![Paper](https://img.shields.io/badge/Paper-ISSTA%20%E2%80%9926-blue.svg)](#)
+[![Paper](https://img.shields.io/badge/Paper-Submitted%20to%20TOSEM-blue.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 
-Official implementation and experiment scripts for the ISSTA 2026 paper:
+Official implementation and experiment scripts for the paper submitted to TOSEM:
 
-> **Intent-Guided Semantic and Structured Retrieval for C++ Issue Resolution**
+> **Intent2Fix: Joint Code-Intent and Repair-Intent Grounding for C++ Issue Resolution**
 
 ---
 
